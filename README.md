@@ -19,7 +19,6 @@ A **modern data pipeline** that turns chaos into actionable insights in **real-t
 
 ## 🏗️ Architecture
 
-```mermaid
 graph LR
     A[📱 Data Generator] --> B[🌐 Flask API]
     B --> C[⚡ Kafka]
